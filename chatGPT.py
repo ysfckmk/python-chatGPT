@@ -20,6 +20,7 @@ def speechToText():
 
 
 def askToGpt(ask):
+  # enter here your api key from https://openai.com/api/
   openai.api_key = your-api-key
   response = openai.Completion.create(
     model='text-davinci-003',
